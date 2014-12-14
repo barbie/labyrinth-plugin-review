@@ -1,0 +1,9 @@
+Changes
+lib/Labyrinth/Plugin/Review.pm
+lib/Labyrinth/Plugin/Review/Retailers.pm
+lib/Labyrinth/Plugin/Review/Types.pm
+LICENSE
+Makefile.PL
+MANIFEST
+META.json
+META.yml
