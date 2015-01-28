@@ -308,7 +308,7 @@ sub Edit {
     $tvars{data}->{ddpublish} = PublishSelect($tvars{data}->{publish})  if(Authorised(ADMIN));
 
     $tvars{data}->{ddreviewers} = $select;
-    $tvars{data}->{ddretailers} = _dropdownReytailers($tvars{data}->{retailerid});
+    $tvars{data}->{ddretailers} = _dropdownRetailers($tvars{data}->{retailerid});
     $tvars{data}->{ddrevtypes}  = _dropdownReviewTypes($tvars{data}->{reviewtypeid});
     $tvars{data}->{postdate}    = formatDate(3,$tvars{data}->{createdate});
 
